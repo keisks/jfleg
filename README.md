@@ -9,6 +9,7 @@ Last updated: Feb 14th, 2017
 ## Data
 
     .
+    ├── EACL_exp      # experiments in the EACL paper
     ├── README.md     # This file
     ├── dev           # dev set (754 sentences originally from the GUG **test** set)
     │   ├── dev.ref0  
@@ -18,7 +19,6 @@ Last updated: Feb 14th, 2017
     │   └── dev.src   # source (This should be the input for your system.)
     ├── eval
     │   └── gleu.py   # evaluation script
-    ├── exp           # coming soon
     ├── hyp           # hypothesis (system outputs to be evaluated)
     │   ├── amu.hyp
     │   ├── camb14.hyp
