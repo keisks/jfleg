@@ -39,7 +39,7 @@ Michael Heilman, Aoife Cahill, Nitin Madnani, Melissa Lopez, Matthew Mulholland,
 bibtex information:
 
 
-    @InProceedings{napoles-sakaguchi-tetreault:2017:EACL2016,
+    @InProceedings{napoles-sakaguchi-tetreault:2017:EACL2017,
       author    = {Napoles, Courtney  and  Sakaguchi, Keisuke  and  Tetreault, Joel},
       title     = {JFLEG: A Fluency Corpus and Benchmark for Grammatical Error Correction},
       booktitle = {Proceedings of the 2017 Conference of the European Chapter of the Association for Computational Linguistics},
@@ -47,7 +47,9 @@ bibtex information:
       year      = {2017},
       address   = {Valencia, Spain},
       publisher = {Association for Computational Linguistics},
+      url       = {https://arxiv.org/abs/1702.04066}
     }
+     
     @InProceedings{heilman-EtAl:2014:P14-2,
       author    = {Heilman, Michael  and  Cahill, Aoife  and  Madnani, Nitin  and  Lopez, Melissa  and  Mulholland, Matthew  and  Tetreault, Joel},
       title     = {Predicting Grammaticality on an Ordinal Scale},
