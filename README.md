@@ -9,7 +9,7 @@ Last updated: Feb 14th, 2017
 ## Data
 
     .
-    ├── EACL_exp      # experiments in the EACL paper
+    ├── EACL_exp      # (coming soon) experiments in the EACL paper
     ├── README.md     # This file
     ├── dev           # dev set (754 sentences originally from the GUG **test** set)
     │   ├── dev.ref0  
@@ -19,16 +19,11 @@ Last updated: Feb 14th, 2017
     │   └── dev.src   # source (This should be the input for your system.)
     ├── eval
     │   └── gleu.py   # evaluation script
-    ├── hyp           # hypothesis (system outputs to be evaluated)
-    │   ├── amu.hyp
-    │   ├── camb14.hyp
-    │   ├── camb16.hyp
-    │   └── nus.hyp
-    └── test          # coming soon
+    └── test          # (coming soon) test set
 
 ## Evaluation
 
-    e.g. python ./eval/gleu.py -r ./dev/dev.ref[0-3] -s ./dev/dev.src --hyp ./hyp/amu.hyp
+    e.g. python ./eval/gleu.py -r ./dev/dev.ref[0-3] -s ./dev/dev.src --hyp YOUR_SYSTEM_OUTPUT
 
 
 ## Reference
