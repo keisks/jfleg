@@ -1,6 +1,6 @@
 # JFLEG (JHU FLuency-Extended GUG) corpus
 
-Last updated: Feb 14th, 2017
+Last updated: April 4th, 2017
 
 [link to arXiv ](https://arxiv.org/abs/1702.04066)
 
@@ -19,8 +19,13 @@ Last updated: Feb 14th, 2017
     │   └── dev.src   # source (This should be the input for your system.)
     ├── eval
     │   └── gleu.py   # evaluation script
-    └── test          # (coming soon) test set
-
+    └── test          # test set (747 sentenses ogirinally from the GUG **dev** set)
+        ├── test.ref0  
+        ├── test.ref1  
+        ├── test.ref2  
+        ├── test.ref3  
+        └── test.src   # source (This should be the input for your system.)
+ 
 ## Evaluation
 
     e.g. python ./eval/gleu.py -r ./dev/dev.ref[0-3] -s ./dev/dev.src --hyp YOUR_SYSTEM_OUTPUT
