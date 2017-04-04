@@ -9,7 +9,12 @@ Last updated: April 4th, 2017
 ## Data
 
     .
-    ├── EACL_exp      # (coming soon) experiments in the EACL paper
+    ├── EACL_exp      # experiments in the EACL paper
+    │   ├── m2converter # script to create m2 format from plain texts
+    │   ├── mturk     # mechanical turk experiments
+    │   │   ├── sample.csv
+    │   │   ├── results.csv (# coming soon)
+    │   │   └── template.html
     ├── README.md     # This file
     ├── dev           # dev set (754 sentences originally from the GUG **test** set)
     │   ├── dev.ref0  
