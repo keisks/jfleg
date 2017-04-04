@@ -45,17 +45,18 @@ Michael Heilman, Aoife Cahill, Nitin Madnani, Melissa Lopez, Matthew Mulholland,
 
 bibtex information:
 
-    @InProceedings{E17-2037,
-      author = "Napoles, Courtney and Sakaguchi, Keisuke and Tetreault, Joel",
-      title = "JFLEG: A Fluency Corpus and Benchmark for Grammatical Error Correction",
-      booktitle = "Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 2, Short Papers",
-      year = "2017",
-      publisher = "Association for Computational Linguistics",
-      pages = "229--234",
-      location = "Valencia, Spain",
-      url = "http://aclweb.org/anthology/E17-2037"
+    @InProceedings{napoles-sakaguchi-tetreault:2017:EACLshort,
+      author    = {Napoles, Courtney  and  Sakaguchi, Keisuke  and  Tetreault, Joel},
+      title     = {JFLEG: A Fluency Corpus and Benchmark for Grammatical Error Correction},
+      booktitle = {Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 2, Short Papers},
+      month     = {April},
+      year      = {2017},
+      address   = {Valencia, Spain},
+      publisher = {Association for Computational Linguistics},
+      pages     = {229--234},
+      url       = {http://www.aclweb.org/anthology/E17-2037}
     }
-    
+   
     @InProceedings{heilman-EtAl:2014:P14-2,
       author    = {Heilman, Michael  and  Cahill, Aoife  and  Madnani, Nitin  and  Lopez, Melissa  and  Mulholland, Matthew  and  Tetreault, Joel},
       title     = {Predicting Grammaticality on an Ordinal Scale},
