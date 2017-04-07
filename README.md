@@ -1,6 +1,8 @@
 # JFLEG (JHU FLuency-Extended GUG) corpus
 
-Last updated: April 4th, 2017
+Last updated: April 7th, 2017
+
+(Make sure to download and use the latest version.)
 
 [link to the paper](http://aclweb.org/anthology/E17-2037)
 
@@ -15,7 +17,13 @@ Last updated: April 4th, 2017
     │   │   ├── sample.csv
     │   │   ├── pairwise.csv
     │   │   └── template.html
+    │   ├── FUMA_annotations-with_NUS.csv
+    │   ├── amu-stats.tsv
+    │   ├── camb-stats.tsv
+    │   ├── nmt-stats.tsv
+    │   └── nus-stats.tsv
     ├── README.md     # This file
+    ├── EACLshort037.pdf 
     ├── dev           # dev set (754 sentences originally from the GUG **test** set)
     │   ├── dev.ref0  
     │   ├── dev.ref1  
