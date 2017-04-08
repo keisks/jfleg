@@ -31,7 +31,7 @@ Last updated: April 7th, 2017
     │   ├── dev.ref3  
     │   └── dev.src   # source (This should be the input for your system.)
     ├── eval
-    │   └── gleu.py   # evaluation script
+    │   └── gleu.py   # evaluation script (sentence-level GLEU score)
     └── test          # test set (747 sentenses ogirinally from the GUG **dev** set)
         ├── test.ref0  
         ├── test.ref1  

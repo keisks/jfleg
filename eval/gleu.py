@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 """
+(Note: This script computes sentence-level GLEU score.)
+
 This script calculates the GLEU score of a sentence, as described in
 our ACL 2015 paper, Ground Truth for Grammatical Error Correction Metrics
 by Courtney Napoles, Keisuke Sakaguchi, Matt Post, and Joel Tetreault.
