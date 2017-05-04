@@ -17,35 +17,33 @@ Last updated: April 7th, 2017
     │   │   ├── sample.csv
     │   │   ├── pairwise.csv
     │   │   └── template.html
-    │   ├── FUMA_annotations-with_NUS.csv
-    │   ├── amu-stats.tsv
-    │   ├── camb-stats.tsv
-    │   ├── nmt-stats.tsv
-    │   └── nus-stats.tsv
+    │   └── manual_eval # manual analysis of 100 sentences
+    │       ├── README.md
+    │       └── coded_sentences.csv
     ├── README.md     # This file
-    ├── EACLshort037.pdf 
+    ├── EACLshort037.pdf
     ├── dev           # dev set (754 sentences originally from the GUG **test** set)
-    │   ├── dev.ref0  
-    │   ├── dev.ref1  
-    │   ├── dev.ref2  
-    │   ├── dev.ref3  
+    │   ├── dev.ref0
+    │   ├── dev.ref1
+    │   ├── dev.ref2
+    │   ├── dev.ref3
     │   └── dev.src   # source (This should be the input for your system.)
     ├── eval
     │   └── gleu.py   # evaluation script (sentence-level GLEU score)
     └── test          # test set (747 sentenses ogirinally from the GUG **dev** set)
-        ├── test.ref0  
-        ├── test.ref1  
-        ├── test.ref2  
-        ├── test.ref3  
+        ├── test.ref0
+        ├── test.ref1
+        ├── test.ref2
+        ├── test.ref3
         └── test.src   # source (This should be the input for your system.)
- 
+
 ## Evaluation
 
     e.g. python ./eval/gleu.py -r ./dev/dev.ref[0-3] -s ./dev/dev.src --hyp YOUR_SYSTEM_OUTPUT
 
 
 ## Reference
-The following paper should be cited in any publications that use this dataset: 
+The following paper should be cited in any publications that use this dataset:
 
 Courtney Napoles, Keisuke Sakaguchi and Joel Tetreault. (EACL 2017): JFLEG: A Fluency Corpus and Benchmark for Grammatical Error Correction. In Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics. Valencia, Spain. April 03-07, 2017.
 
@@ -64,7 +62,7 @@ bibtex information:
       pages     = {229--234},
       url       = {http://www.aclweb.org/anthology/E17-2037}
     }
-   
+
     @InProceedings{heilman-EtAl:2014:P14-2,
       author    = {Heilman, Michael  and  Cahill, Aoife  and  Madnani, Nitin  and  Lopez, Melissa  and  Mulholland, Matthew  and  Tetreault, Joel},
       title     = {Predicting Grammaticality on an Ordinal Scale},
@@ -85,5 +83,3 @@ bibtex information:
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
-
-
