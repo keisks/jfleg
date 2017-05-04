@@ -78,7 +78,7 @@ bibtex information:
 
 ## Questions
 
- - Please e-mail to Courtney Napoles (napoles[at]cs.jhu.edu) and Keisuke Sakaguchi (keisuke[at]cs.jhu.edu).
+ - Please e-mail Courtney Napoles (napoles[at]cs.jhu.edu) and Keisuke Sakaguchi (keisuke[at]cs.jhu.edu).
 
 
 ## License
