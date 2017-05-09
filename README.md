@@ -37,9 +37,27 @@ Last updated: April 7th, 2017
         ├── test.ref3
         └── test.src   # source (This should be the input for your system.)
 
+
 ## Evaluation
 
     e.g. python ./eval/gleu.py -r ./dev/dev.ref[0-3] -s ./dev/dev.src --hyp YOUR_SYSTEM_OUTPUT
+
+
+## Leader Board (published results)
+
+N.B. Sytems with asterisk (*) are tuned on different data. 
+
+System                     | GLEU (dev) | GLEU (test)
+---------------------------------------- | :--------: | :---------:
+[Yuan and Briscoe (2016)* ](http://www.aclweb.org/anthology/N16-1042)   |  47.20     | 52.05 
+[Chollampatt et al. (2016)* ](https://aclweb.org/anthology/D/D16/D16-1195.pdf) |  46.27     | 50.13
+[Felice et al. (2014)* ](http://www.aclweb.org/anthology/W14-1702)     |  42.81     | 46.04
+[Junczys-Dowmunt and Grundkiewicz (2016)* ](https://www.aclweb.org/anthology/D/D16/D16-1161.pdf)|  41.74     | 44.85
+=================================== | ========== | ==========
+SOURCE    |  38.21 | 40.54
+REFERENCE |  55.26 | 62.37
+
+- If you want to add your score, please send an e-mail to keisuke[at]cs.jhu.edu a link to your paper and system outputs.
 
 
 ## Reference
@@ -74,6 +92,9 @@ bibtex information:
       pages     = {174--180},
       url       = {http://www.aclweb.org/anthology/P14-2029}
     }
+
+
+
 
 
 ## Questions
