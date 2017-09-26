@@ -1,6 +1,6 @@
 # JFLEG (JHU FLuency-Extended GUG) corpus
 
-Last updated: April 7th, 2017
+Last updated: September 26th, 2017
 
 (Make sure to download and use the latest version.)
 
@@ -49,10 +49,12 @@ N.B. Sytems with asterisk (*) are tuned on different data.
 
 System                     | GLEU (dev) | GLEU (test)
 ---------------------------------------- | :--------: | :---------:
-[Yuan and Briscoe (2016)* ](http://www.aclweb.org/anthology/N16-1042)   |  47.20     | 52.05 
+[Sakaguchi et al. (2017)](https://arxiv.org/pdf/1707.00299.pdf)         |  49.82 | 53.98
+[Ji et al. (2017)*](http://aclweb.org/anthology/P/P17/P17-1070.pdf)      |  48.93 | 53.41
+[Yuan and Briscoe (2016)* ](http://www.aclweb.org/anthology/N16-1042)   |  47.20 | 52.05 
+[Junczys-Dowmunt and Grundkiewicz (2016) ](https://www.aclweb.org/anthology/D/D16/D16-1161.pdf) |  49.74 | 51.46
 [Chollampatt et al. (2016)* ](https://aclweb.org/anthology/D/D16/D16-1195.pdf) |  46.27     | 50.13
-[Felice et al. (2014)* ](http://www.aclweb.org/anthology/W14-1702)     |  42.81     | 46.04
-[Junczys-Dowmunt and Grundkiewicz (2016)* ](https://www.aclweb.org/anthology/D/D16/D16-1161.pdf)|  41.74     | 44.85
+[Felice et al. (2014)* ](http://www.aclweb.org/anthology/W14-1702)      |  42.81 | 46.04
 =================================== | ========== | ==========
 SOURCE    |  38.21 | 40.54
 REFERENCE |  55.26 | 62.37
