@@ -30,7 +30,7 @@ from collections import Counter
 class GLEU:
 
     def __init__(self, n=4):
-        self.order = 4
+        self.order = n
 
     def load_hypothesis_sentence(self, hypothesis):
         """load ngrams for a single sentence"""
@@ -200,7 +200,7 @@ if __name__ == '__main__':
     parser.add_argument('--ref', '-r', nargs='*', required=True, help='ref file(s)')
     parser.add_argument('--src', '-s', required=True, help='src file')
     parser.add_argument('--hyp', nargs='*', required=True, help='hyp file(s)')
-    parser.add_argument('-n', default=4, help='n-gram order')
+    parser.add_argument('-n', default=4, type=int, help='n-gram order')
     parser.add_argument('--iter', default=500, help='number of GLEU iterations')
     parser.add_argument('--sent', default=False, action='store_true', help='sentence level scores')
     args = parser.parse_args()
