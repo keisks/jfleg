@@ -78,7 +78,7 @@ class GLEU:
     def get_ngram_counts(self, sentence, n):
         """get ngrams of order n for a tokenized sentence"""
         return Counter([tuple(sentence[i:i + n])
-                        for i in xrange(len(sentence) + 1 - n)])
+                        for i in range(len(sentence) + 1 - n)])
 
     def get_ngram_diff(self, a, b):
         """returns ngrams in a but not in b"""
@@ -105,7 +105,7 @@ class GLEU:
         yield hlen
         yield rlen
 
-        for n in xrange(1, self.order + 1):
+        for n in range(1, self.order + 1):
             h_ngrams = self.this_h_ngrams[n - 1]
             s_ngrams = self.all_s_ngrams[i][n - 1]
             r_ngrams = self.get_ngram_counts(self.refs[i][r_ind], n)
@@ -122,7 +122,7 @@ class GLEU:
         # smooth 0 counts for sentence-level scores
         if smooth:
             stats = [s if s != 0 else 1 for s in stats]
-        if len(filter(lambda x: x == 0, stats)) > 0:
+        if len(list(filter(lambda x: x == 0, stats))) > 0:
             return 0
         (c, r) = stats[:2]
         log_gleu_prec = sum([math.log(float(x) / y)
@@ -159,7 +159,7 @@ class GLEU:
             print('===== Sentence-level scores =====')
             print('SID Mean Stdev 95%CI GLEU')
 
-        iter_stats = [[0 for i in xrange(2 * n + 2)] for j in range(num_iterations)]
+        iter_stats = [[0 for i in range(2 * n + 2)] for j in range(num_iterations)]
 
         for i, h in enumerate(hyp):
 
@@ -211,8 +211,8 @@ if __name__ == '__main__':
     gleu_calculator.load_sources(args.src)
     gleu_calculator.load_references(args.ref)
     for hpath in args.hyp:
-        print hpath
-        print [g for g in gleu_calculator.run_iterations(num_iterations=args.iter,
+        print(hpath)
+        print([g for g in gleu_calculator.run_iterations(num_iterations=args.iter,
                                                          source=args.src,
                                                          hypothesis=hpath,
-                                                         per_sent=args.sent)]
+                                                         per_sent=args.sent)])
