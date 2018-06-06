@@ -212,7 +212,15 @@ if __name__ == '__main__':
     gleu_calculator.load_references(args.ref)
     for hpath in args.hyp:
         print(hpath)
-        print([g for g in gleu_calculator.run_iterations(num_iterations=args.iter,
-                                                         source=args.src,
-                                                         hypothesis=hpath,
-                                                         per_sent=args.sent)])
+        if len(args.ref) == 1:
+            print("There is one reference. NOTE: GLEU is not computing the confidence interval.")
+            print([g for g in gleu_calculator.run_iterations(num_iterations=args.iter,
+                                                             source=args.src,
+                                                             hypothesis=hpath,
+                                                             per_sent=args.sent)][0][0])
+        else:
+            print([g for g in gleu_calculator.run_iterations(num_iterations=args.iter,
+                                                             source=args.src,
+                                                             hypothesis=hpath,
+                                                             per_sent=args.sent)])
+ 
