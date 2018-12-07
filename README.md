@@ -1,6 +1,6 @@
 # JFLEG (JHU FLuency-Extended GUG) corpus
 
-Last updated: December 3rd, 2018
+Last updated: December 7th, 2018
 
 (Make sure to download and use the latest version.)
 
@@ -51,9 +51,9 @@ N.B. Sytems with asterisk (*) are tuned on different data.
 
 System                     | GLEU (dev) | GLEU (test)
 ---------------------------------------- | :--------: | :---------:
+[Ge et al. (2018)](https://arxiv.org/pdf/1807.01270.pdf)         |  N/A | 62.42
 [Grundkiewicz and Junczys-Dowmunt (2018)](https://arxiv.org/pdf/1804.05945.pdf)         |  N/A | 61.50
 [Junczys-Dowmunt et al. (2018)](https://arxiv.org/pdf/1804.05940.pdf)         |  N/A | 59.90
-[Ge et al. (2018)](http://www.aclweb.org/anthology/P18-1097)         |  52.93 | 57.74
 [Chollampatt and Ng (2018)](https://arxiv.org/pdf/1801.08831.pdf)         |  52.48 | 57.47
 [Chollampatt and Ng (2017)](http://www.aclweb.org/anthology/W17-5037)         |  51.01 | 56.78
 [Sakaguchi et al. (2017)](https://arxiv.org/pdf/1707.00299.pdf)         |  49.82 | 53.98
