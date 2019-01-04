@@ -56,6 +56,7 @@ System                     | GLEU (dev) | GLEU (test)
 [Junczys-Dowmunt et al. (2018)](https://arxiv.org/pdf/1804.05940.pdf)         |  N/A | 59.90
 [Chollampatt and Ng (2018)](https://arxiv.org/pdf/1801.08831.pdf)         |  52.48 | 57.47
 [Chollampatt and Ng (2017)](http://www.aclweb.org/anthology/W17-5037)         |  51.01 | 56.78
+[Xie et al. (2018)*](http://www.aclweb.org/anthology/N18-1057)         |  N/A | 56.20
 [Sakaguchi et al. (2017)](https://arxiv.org/pdf/1707.00299.pdf)         |  49.82 | 53.98
 [Ji et al. (2017)*](http://aclweb.org/anthology/P/P17/P17-1070.pdf)      |  48.93 | 53.41
 [Yuan and Briscoe (2016)* ](http://www.aclweb.org/anthology/N16-1042)   |  47.20 | 52.05 
