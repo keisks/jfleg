@@ -67,7 +67,7 @@ System                     | GLEU (dev) | GLEU (test)
 SOURCE    |  38.21 | 40.54
 REFERENCE |  55.26 | 62.37
 
-- If you want to add your score, please send an e-mail to keisuke[at]cs.jhu.edu a link to your paper and system outputs.
+- If you want to add your score, please send an e-mail to keisukes[at]allenai.org a link to your paper and system outputs.
 - The reference scores are computed by averaging each reference.
 
 
