@@ -18,12 +18,14 @@ A 3 3|||#Del#|||newer|||REQUIRED|||-NONE-|||3
 S One possible outcome is that an environmentally-induced reduction in motorization levels in the richer countries will outweigh any rise in motorization levels in the poorer countries .
 A 12 13|||#Ins#||||||REQUIRED|||-NONE-|||0
 A 23 24|||#Ins#||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 6 7|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 7 7|||#Del#|||environmentally induced|||REQUIRED|||-NONE-|||2
 
 S Every person needs to know a bit about math , sciences , arts , literature and history in order to stand out in society .
 A 10 11|||#Ri#|||science|||REQUIRED|||-NONE-|||0
 A 12 13|||#Ri#|||art|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 10 11|||#Ri#|||science|||REQUIRED|||-NONE-|||2
 A 12 12|||#Del#|||the|||REQUIRED|||-NONE-|||2
 A 15 15|||#Del#|||,|||REQUIRED|||-NONE-|||2
@@ -385,12 +387,15 @@ A 6 7|||#Ins#||||||REQUIRED|||-NONE-|||0
 A 5 5|||#Del#|||nature as|||REQUIRED|||-NONE-|||1
 A 5 6|||#Rp#|||a|||REQUIRED|||-NONE-|||1
 A 7 8|||#Ins#||||||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||2
 A 7 7|||#Del#|||of|||REQUIRED|||-NONE-|||3
 
 S They will not be able to compete with other similar brands and the product will fizzle out or die .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 8 9|||#Ins#||||||REQUIRED|||-NONE-|||2
 
 S People are now opening their eyes to the scenario when we would run out of fuel .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 9 9|||#Del#|||that happens|||REQUIRED|||-NONE-|||1
 A 11 12|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 9 10|||#Rp#|||where|||REQUIRED|||-NONE-|||2
@@ -401,14 +406,17 @@ A 11 12|||#Rc#|||could|||REQUIRED|||-NONE-|||3
 
 S For me it was great because I need to talk on the phone locally and nationally for long periods of time .
 A 2 2|||#Del#|||,|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 2 2|||#Del#|||,|||REQUIRED|||-NONE-|||2
 A 13 13|||#Del#|||both|||REQUIRED|||-NONE-|||2
 A 2 2|||#Del#|||,|||REQUIRED|||-NONE-|||3
 
 S They only care if the effects are good and popular among the crowds .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 10 11|||#Rp#|||with|||REQUIRED|||-NONE-|||2
 
 S That is why calculated risks , as one could call them , are the predecessors of big success , because they get people 's attention by giving people new options .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 0 3|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 18 19|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 27 28|||#Ins#||||||REQUIRED|||-NONE-|||3
@@ -556,11 +564,13 @@ A 19 20|||#Rc#|||favorite|||REQUIRED|||-NONE-|||3
 S I have an IBM computer and my laptop is DELL .
 A 4 4|||#Del#|||desktop|||REQUIRED|||-NONE-|||0
 A 9 9|||#Del#|||a|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 5 5|||#Del#|||,|||REQUIRED|||-NONE-|||2
 A 9 9|||#Del#|||a|||REQUIRED|||-NONE-|||2
 A 9 9|||#Del#|||a|||REQUIRED|||-NONE-|||3
 
 S Air in China is not so clean because of cars .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 0 0|||#Del#|||The|||REQUIRED|||-NONE-|||1
 A 5 6|||#Rp#|||very|||REQUIRED|||-NONE-|||1
 A 9 9|||#Del#|||pollution from|||REQUIRED|||-NONE-|||1
@@ -674,6 +684,7 @@ A 20 23|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 28 28|||#Del#|||but|||REQUIRED|||-NONE-|||3
 
 S This rebuffs the reading passage 's claim that there is no improvement .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 1 2|||#Rp#|||contradicts|||REQUIRED|||-NONE-|||2
 A 1 2|||#Rp#|||refutes|||REQUIRED|||-NONE-|||3
 
@@ -1018,6 +1029,7 @@ A 11 11|||#Del#|||greatly|||REQUIRED|||-NONE-|||3
 S Even more relevant to the seduction of advertisement is the fact that quite frequently those images of perfection placed in front of our eyes are just mirages and illusions , bodies touched up by computer programs and therefore , they do not resemble reality at all .
 A 37 37|||#Del#|||,|||REQUIRED|||-NONE-|||0
 A 38 39|||#Ins#||||||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||2
 A 5 6|||#Rp#|||seductiveness|||REQUIRED|||-NONE-|||3
 A 7 8|||#Ri#|||advertisements|||REQUIRED|||-NONE-|||3
 A 12 12|||#Del#|||,|||REQUIRED|||-NONE-|||3
@@ -1056,6 +1068,7 @@ A 35 35|||#Del#|||in the following paragraphs|||REQUIRED|||-NONE-|||3
 S In the advertisement that he shows in the media , newspapers , magazines , and public spaces , he clearly says that the product is made with products of high quality in technology .
 A 2 3|||#Ri#|||advertisements|||REQUIRED|||-NONE-|||0
 A 3 4|||#Ins#||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 27 29|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 31 32|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 2 3|||#Ri#|||advertisements|||REQUIRED|||-NONE-|||3
@@ -1276,6 +1289,7 @@ A 26 26|||#Del#|||.|||REQUIRED|||-NONE-|||3
 
 S Educators should provide opportunities for them to learn enough knowledge to survive the real world .
 A 12 12|||#Del#|||in|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 5 6|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 6 6|||#Del#|||students|||REQUIRED|||-NONE-|||2
 A 12 12|||#Del#|||in|||REQUIRED|||-NONE-|||2
@@ -1345,6 +1359,7 @@ S And what are those risks ?
 
 S In contrast , the speaker casts doubt on the conclusion .
 A 6 6|||#Del#|||a|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 
 S In this movie father has handicapped .
 A 3 3|||#Del#|||, the|||REQUIRED|||-NONE-|||0
@@ -1605,6 +1620,7 @@ A 13 13|||#Del#|||away|||REQUIRED|||-NONE-|||3
 A 16 16|||#Del#|||,|||REQUIRED|||-NONE-|||3
 
 S They follow the way the Sun goes from the east to the west .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 7 7|||#Del#|||,|||REQUIRED|||-NONE-|||2
 
 S it 's the time to take a rest looking back in your present .
@@ -1681,6 +1697,7 @@ A 7 8|||#Rc#|||problematic|||REQUIRED|||-NONE-|||2
 A 7 8|||#Rc#|||problematic|||REQUIRED|||-NONE-|||3
 
 S The incoming generation will not ride a two wheeler .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 1 2|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 2 2|||#Del#|||upcoming|||REQUIRED|||-NONE-|||3
 A 6 9|||#Ins#||||||REQUIRED|||-NONE-|||3
@@ -1862,6 +1879,7 @@ A 8 8|||#Del#|||them|||REQUIRED|||-NONE-|||3
 A 11 12|||#Ri#|||institutes|||REQUIRED|||-NONE-|||3
 
 S I totally agree that the youth today are not sparing sufficient time helping their communities .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 12 12|||#Del#|||to|||REQUIRED|||-NONE-|||1
 A 12 13|||#Ri#|||help|||REQUIRED|||-NONE-|||1
 A 10 11|||#Rp#|||enough|||REQUIRED|||-NONE-|||2
@@ -2076,6 +2094,7 @@ A 5 5|||#Del#|||learned|||REQUIRED|||-NONE-|||3
 A 7 8|||#Ri#|||did|||REQUIRED|||-NONE-|||3
 
 S Let 's say your interest lies in paintings .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 3 3|||#Del#|||that|||REQUIRED|||-NONE-|||2
 
 S However , what makes a student excellent is to both understand the concept and learn the facts .
@@ -2209,6 +2228,7 @@ S I have specific reasons for this .
 
 S Actually it might not be true .
 A 1 1|||#Del#|||,|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 1 1|||#Del#|||,|||REQUIRED|||-NONE-|||2
 
 S We still have to burn down forest to make land for farming and the result is bird will lose more of their habitat .
@@ -2279,6 +2299,7 @@ A 30 31|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 31 31|||#Del#|||from|||REQUIRED|||-NONE-|||3
 
 S On the other hand , if you specialize in one specific subject such as physics you will never help him .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 12 12|||#Del#|||,|||REQUIRED|||-NONE-|||2
 A 15 15|||#Del#|||,|||REQUIRED|||-NONE-|||2
 A 7 7|||#Del#|||only|||REQUIRED|||-NONE-|||3
@@ -2457,6 +2478,7 @@ A 10 10|||#Del#|||attending|||REQUIRED|||-NONE-|||3
 A 12 12|||#Del#|||is compulsory|||REQUIRED|||-NONE-|||3
 
 S They might put it on the label , but they do n't say it on tv advertising .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 14 15|||#Rp#|||in|||REQUIRED|||-NONE-|||2
 A 15 15|||#Del#|||their|||REQUIRED|||-NONE-|||2
 
@@ -2513,6 +2535,7 @@ A 25 25|||#Del#|||the|||REQUIRED|||-NONE-|||3
 A 28 29|||#Rp#|||the|||REQUIRED|||-NONE-|||3
 
 S First , disking can be an alternative to prescribed burning .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 0 2|||#Ins#||||||REQUIRED|||-NONE-|||2
 
 S By just knowing culture of a different country that we are living and not born on , we wo n't be able to live .
@@ -2571,6 +2594,7 @@ A 6 7|||#Rp#|||high|||REQUIRED|||-NONE-|||3
 A 9 10|||#Rc#|||disputed|||REQUIRED|||-NONE-|||3
 
 S And what is more effective than loads of people working towards the same aim ?
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 13 14|||#Rp#|||goal|||REQUIRED|||-NONE-|||1
 A 6 7|||#Rs#|||lots|||REQUIRED|||-NONE-|||2
 A 10 11|||#Ri#|||toward|||REQUIRED|||-NONE-|||2
@@ -2580,6 +2604,7 @@ S If we have this quality then no one can beat us .
 A 2 3|||#Rp#|||offer|||REQUIRED|||-NONE-|||0
 A 5 5|||#Del#|||,|||REQUIRED|||-NONE-|||0
 A 5 5|||#Del#|||,|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||2
 
 S you have 30 typically an effective response will contain a minimum you will be satisfiy culture expienrence and and fit your test .
 A 0 4|||#Ins#||||||REQUIRED|||-NONE-|||0
@@ -2978,6 +3003,7 @@ A 18 19|||#Rs#|||sunlight|||REQUIRED|||-NONE-|||3
 A 19 20|||#Ins#||||||REQUIRED|||-NONE-|||3
 
 S However , I firmly believe that students have to learn broad knowledge of many academic subjects .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 7 7|||#Del#|||should|||REQUIRED|||-NONE-|||2
 A 8 10|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 10 10|||#Del#|||a|||REQUIRED|||-NONE-|||2
@@ -3043,6 +3069,7 @@ A 17 17|||#Del#|||to|||REQUIRED|||-NONE-|||3
 A 17 18|||#Ri#|||obtain|||REQUIRED|||-NONE-|||3
 
 S In order to understand these , and more importantly , to link these together , that wisdom will duly serve him .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 5 5|||#Del#|||things|||REQUIRED|||-NONE-|||1
 A 12 13|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 13 13|||#Del#|||them|||REQUIRED|||-NONE-|||1
@@ -3075,6 +3102,7 @@ A 5 5|||#Del#|||older|||REQUIRED|||-NONE-|||2
 A 3 4|||#Ri#|||got|||REQUIRED|||-NONE-|||3
 
 S As a tour guide , the person has to be familiar with the place he or she is touring .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 0 1|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 4 7|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 18 18|||#Del#|||giving a|||REQUIRED|||-NONE-|||3
@@ -3178,6 +3206,7 @@ A 27 28|||#Ri#|||math|||REQUIRED|||-NONE-|||3
 A 28 34|||#Ins#||||||REQUIRED|||-NONE-|||3
 
 S For example , the subway in New York , bullet trains in Japan , underground tube trains in Singapore and the sky trains in Bangkok travel at lightening speed .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 27 28|||#Rc#|||lightning|||REQUIRED|||-NONE-|||1
 A 9 9|||#Del#|||the|||REQUIRED|||-NONE-|||2
 A 14 14|||#Del#|||the|||REQUIRED|||-NONE-|||2
@@ -3247,6 +3276,7 @@ A 0 1|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 9 11|||#Rc#|||serious problems|||REQUIRED|||-NONE-|||3
 
 S To this day , I still remember what we studied that day in class .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 10 10|||#Del#|||on|||REQUIRED|||-NONE-|||2
 
 S Ihad good life in my cauntry but everything I got from my patents .
@@ -3371,6 +3401,7 @@ A 21 21|||#Del#|||non-Europeans|||REQUIRED|||-NONE-|||3
 A 21 23|||#Rp#|||may have|||REQUIRED|||-NONE-|||3
 
 S secondly , it is an unfair action because it will effect the low-income American .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 13 14|||#Ri#|||Americans|||REQUIRED|||-NONE-|||1
 A 10 11|||#Rc#|||affect|||REQUIRED|||-NONE-|||2
 A 11 12|||#Ins#||||||REQUIRED|||-NONE-|||2
@@ -3504,6 +3535,7 @@ A 8 9|||#Ins#||||||REQUIRED|||-NONE-|||0
 A 11 12|||#Ins#||||||REQUIRED|||-NONE-|||0
 A 14 15|||#Rc#|||over|||REQUIRED|||-NONE-|||0
 A 15 16|||#Rp#|||an|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 2 2|||#Del#|||there|||REQUIRED|||-NONE-|||2
 A 2 3|||#Rs#|||are|||REQUIRED|||-NONE-|||2
 A 3 4|||#Ins#||||||REQUIRED|||-NONE-|||2
@@ -3624,6 +3656,7 @@ A 9 10|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 10 11|||#Ri#|||have|||REQUIRED|||-NONE-|||3
 
 S Maybe they have some disadvantages in humanity .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 5 6|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 6 6|||#Del#|||to|||REQUIRED|||-NONE-|||3
 
@@ -3663,6 +3696,7 @@ A 10 10|||#Del#|||,|||REQUIRED|||-NONE-|||2
 A 2 3|||#Ri#|||humans|||REQUIRED|||-NONE-|||3
 
 S Ideas and motives for the war are more important to know because from them one might draw some conclusions and it might change something inside the student .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 0 2|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 4 5|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 12 12|||#Del#|||,|||REQUIRED|||-NONE-|||3
@@ -3895,6 +3929,7 @@ A 16 17|||#Ri#|||is|||REQUIRED|||-NONE-|||3
 A 19 20|||#Rp#|||goal|||REQUIRED|||-NONE-|||3
 
 S I basically feel that young people do enjoy their life more than older people do .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 9 10|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 10 10|||#Del#|||lives|||REQUIRED|||-NONE-|||1
 A 6 7|||#Ins#||||||REQUIRED|||-NONE-|||2
@@ -3917,6 +3952,7 @@ A 13 13|||#Del#|||were|||REQUIRED|||-NONE-|||3
 
 S they might be bored of reading a complex passage .
 A 4 5|||#Rp#|||by|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 
 S But it is possible to have a broad knowledge of many academis subjects without being specialized in one particular topic ?
 A 11 12|||#Rc#|||academic|||REQUIRED|||-NONE-|||0
@@ -3937,6 +3973,7 @@ A 15 16|||#Ri#|||specializing|||REQUIRED|||-NONE-|||3
 
 S So she decides to work in a Nursing Home because she wants to provide care for elderly people .
 A 9 9|||#Del#|||,|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 2 3|||#Ri#|||decided|||REQUIRED|||-NONE-|||2
 A 0 1|||#Ins#||||||REQUIRED|||-NONE-|||3
 
@@ -3989,6 +4026,7 @@ A 31 32|||#Ins#||||||REQUIRED|||-NONE-|||0
 A 32 32|||#Del#|||to|||REQUIRED|||-NONE-|||0
 A 32 33|||#Ri#|||buy|||REQUIRED|||-NONE-|||0
 A 35 36|||#Ins#||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 13 14|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 18 18|||#Del#|||the|||REQUIRED|||-NONE-|||2
 A 35 36|||#Ins#||||||REQUIRED|||-NONE-|||2
@@ -4224,6 +4262,7 @@ A 18 19|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 19 19|||#Del#|||their|||REQUIRED|||-NONE-|||1
 A 24 24|||#Del#|||that|||REQUIRED|||-NONE-|||1
 A 26 27|||#Ri#|||are|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||2
 A 5 6|||#Rp#|||promoters|||REQUIRED|||-NONE-|||3
 A 6 7|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 7 7|||#Del#|||and|||REQUIRED|||-NONE-|||3
@@ -4254,6 +4293,7 @@ A 11 13|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 16 17|||#Ins#||||||REQUIRED|||-NONE-|||3
 
 S On the other hand , the reading passage states that using chemicals is clearly not such a good idea because it can develop parasitic infections in the human body .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 22 23|||#Rs#|||cause|||REQUIRED|||-NONE-|||1
 A 23 23|||#Del#|||the development of|||REQUIRED|||-NONE-|||1
 A 20 21|||#Rp#|||they|||REQUIRED|||-NONE-|||2
@@ -4368,6 +4408,7 @@ A 12 13|||#Ins#||||||REQUIRED|||-NONE-|||0
 A 13 13|||#Del#|||'m|||REQUIRED|||-NONE-|||0
 A 14 15|||#Rp#|||of|||REQUIRED|||-NONE-|||0
 A 17 18|||#Rp#|||say|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 2 2|||#Del#|||that|||REQUIRED|||-NONE-|||2
 A 5 6|||#Rp#|||a|||REQUIRED|||-NONE-|||2
 A 8 9|||#Rp#|||of|||REQUIRED|||-NONE-|||2
@@ -4397,6 +4438,7 @@ A 3 4|||#Ri#|||facts|||REQUIRED|||-NONE-|||3
 A 4 4|||#Del#|||and|||REQUIRED|||-NONE-|||3
 
 S That was a very beautiful dream in my mind at that time .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 10 11|||#Rp#|||the|||REQUIRED|||-NONE-|||1
 
 S After majoring in any feild of studies a student can not adjust immidiatly with the practical world .
@@ -4463,6 +4505,7 @@ A 10 11|||#Rp#|||areas|||REQUIRED|||-NONE-|||3
 A 12 13|||#Rp#|||the|||REQUIRED|||-NONE-|||3
 
 S I will outline in the below paragraphs my arguments in favor of this statement .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 5 6|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 6 6|||#Del#|||following|||REQUIRED|||-NONE-|||2
 A 5 6|||#Ins#||||||REQUIRED|||-NONE-|||3
@@ -4534,6 +4577,7 @@ A 9 9|||#Del#|||to|||REQUIRED|||-NONE-|||0
 A 14 15|||#Ri#|||'s|||REQUIRED|||-NONE-|||0
 A 18 20|||#Ins#||||||REQUIRED|||-NONE-|||0
 A 20 20|||#Del#|||largely|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 0 1|||#Rp#|||Secondly|||REQUIRED|||-NONE-|||2
 A 7 9|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 9 9|||#Del#|||, gold-like , and|||REQUIRED|||-NONE-|||2
@@ -4646,6 +4690,7 @@ A 14 14|||#Del#|||,|||REQUIRED|||-NONE-|||3
 
 S Thus i see more people opting for their own car in the near future .
 A 1 1|||#Del#|||,|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 9 10|||#Ri#|||cars|||REQUIRED|||-NONE-|||3
 
 S So people who they do not give enough time to helping their communities , they should repair this .
@@ -4668,6 +4713,7 @@ A 9 10|||#Ins#||||||REQUIRED|||-NONE-|||0
 A 10 10|||#Del#|||he or she|||REQUIRED|||-NONE-|||0
 A 11 12|||#Ins#||||||REQUIRED|||-NONE-|||0
 A 12 12|||#Del#|||his or her|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 
 S Most of us will understand better when the ideas and the concepts of the war is shown and we can get vey exited with it .
 A 21 22|||#Ins#||||||REQUIRED|||-NONE-|||0
@@ -4792,6 +4838,7 @@ A 17 18|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 18 18|||#Del#|||and|||REQUIRED|||-NONE-|||3
 
 S then there chance to shift him other parts of cricket .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 2 2|||#Del#|||is a|||REQUIRED|||-NONE-|||1
 A 4 5|||#Rp#|||teach|||REQUIRED|||-NONE-|||1
 A 2 2|||#Del#|||is a|||REQUIRED|||-NONE-|||2
@@ -4863,6 +4910,7 @@ A 5 6|||#Ri#|||needs|||REQUIRED|||-NONE-|||3
 A 7 8|||#Rc#|||experience|||REQUIRED|||-NONE-|||3
 
 S A student who chooses to study at university has to become well acquainted with different methods of expanding current ideas and concepts .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 17 18|||#Rp#|||explaining|||REQUIRED|||-NONE-|||3
 
 S Therefore french revolution happend in the middle age in Eruope because of that reasons . ''
@@ -4897,6 +4945,7 @@ A 12 13|||#Rp#|||those|||REQUIRED|||-NONE-|||3
 S It is therefore important for the respective governments and international bodies to try and reduce the negative consequences of this trend .
 A 2 2|||#Del#|||,|||REQUIRED|||-NONE-|||0
 A 3 3|||#Del#|||,|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 
 S It mentions about the cane toad which threatens many local species in Australia .
 A 2 3|||#Ins#||||||REQUIRED|||-NONE-|||0
@@ -4942,6 +4991,7 @@ A 5 6|||#Rc#|||succeeded|||REQUIRED|||-NONE-|||3
 A 6 6|||#Del#|||,|||REQUIRED|||-NONE-|||3
 
 S As we know that fish is taken as a meal it is harmful for the human beings to do fish farming .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 3 4|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 4 4|||#Del#|||, when|||REQUIRED|||-NONE-|||1
 A 10 10|||#Del#|||,|||REQUIRED|||-NONE-|||1
@@ -4954,6 +5004,7 @@ A 6 7|||#Rs#|||eaten|||REQUIRED|||-NONE-|||3
 A 10 10|||#Del#|||,|||REQUIRED|||-NONE-|||3
 
 S Although understanding the concepts is important , sometimes facts are the only solution for them to learn .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 4 5|||#Ri#|||are|||REQUIRED|||-NONE-|||1
 A 12 13|||#Ri#|||solutions|||REQUIRED|||-NONE-|||1
 A 12 13|||#Rp#|||requirement|||REQUIRED|||-NONE-|||2
@@ -5010,6 +5061,7 @@ A 24 25|||#Ri#|||things|||REQUIRED|||-NONE-|||3
 
 S Instead , they would help with the house or with farming .
 A 9 10|||#Ins#||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 1 2|||#Ins#||||||REQUIRED|||-NONE-|||2
 
 S but lecturer shows different angle of the systm ...
@@ -5136,6 +5188,7 @@ A 11 11|||#Del#|||'s|||REQUIRED|||-NONE-|||3
 
 S Probably , by using my own car this would have been much more difficult and stressful , if not impossible .
 A 7 7|||#Del#|||,|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 0 2|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 7 7|||#Del#|||,|||REQUIRED|||-NONE-|||2
 A 8 8|||#Del#|||probably|||REQUIRED|||-NONE-|||2
@@ -5168,6 +5221,7 @@ A 7 8|||#Ri#|||lack|||REQUIRED|||-NONE-|||3
 
 S so , their parents will buy for them .
 A 0 2|||#Ins#||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 1 2|||#Ins#||||||REQUIRED|||-NONE-|||2
 
 S Thy are busy in there self , thy dont spend time to help the society that they live in .
@@ -5274,6 +5328,7 @@ S television makers just hung academic title on their program .
 A 3 4|||#Ri#|||hang|||REQUIRED|||-NONE-|||0
 A 5 6|||#Ri#|||titles|||REQUIRED|||-NONE-|||0
 A 8 9|||#Rc#|||programs|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 4 4|||#Del#|||an|||REQUIRED|||-NONE-|||2
 A 4 4|||#Del#|||an|||REQUIRED|||-NONE-|||3
 
@@ -5330,6 +5385,7 @@ A 41 42|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 43 43|||#Del#|||out loud|||REQUIRED|||-NONE-|||3
 
 S They think what the celebrities say in the advertisement is true .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 3 4|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 7 8|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 8 9|||#Ri#|||advertisements|||REQUIRED|||-NONE-|||2
@@ -5380,6 +5436,7 @@ A 36 37|||#Ins#||||||REQUIRED|||-NONE-|||0
 A 37 37|||#Del#|||to|||REQUIRED|||-NONE-|||0
 A 39 39|||#Del#|||that|||REQUIRED|||-NONE-|||0
 A 39 40|||#Ri#|||surround|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 1 3|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 14 14|||#Del#|||students|||REQUIRED|||-NONE-|||2
 A 39 41|||#Ins#||||||REQUIRED|||-NONE-|||2
@@ -5432,6 +5489,7 @@ S They do not want to regret of their lives on earth .
 A 6 7|||#Ins#||||||REQUIRED|||-NONE-|||0
 A 6 7|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 6 7|||#Ins#||||||REQUIRED|||-NONE-|||2
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||3
 
 S It is better to have a very good understanding knowledege of many academic because it makes you broad and gives you chances and oppurtunity to work in different fields and enviroment .
 A 9 10|||#Ins#||||||REQUIRED|||-NONE-|||0
@@ -5473,6 +5531,7 @@ S For instance , YANG Zhenning , who is a famous scientist with great achievemen
 A 24 25|||#Rp#|||carrying|||REQUIRED|||-NONE-|||0
 A 25 26|||#Ins#||||||REQUIRED|||-NONE-|||0
 A 26 26|||#Del#|||out|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 24 25|||#Rp#|||continuing|||REQUIRED|||-NONE-|||2
 A 25 26|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 24 25|||#Rs#|||specializing|||REQUIRED|||-NONE-|||3
@@ -5517,6 +5576,7 @@ S In my opinion there are some reasons why it is true .
 A 3 3|||#Del#|||,|||REQUIRED|||-NONE-|||0
 A 5 6|||#Ins#||||||REQUIRED|||-NONE-|||0
 A 6 6|||#Del#|||several|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 3 3|||#Del#|||,|||REQUIRED|||-NONE-|||2
 A 7 7|||#Del#|||for|||REQUIRED|||-NONE-|||2
 A 3 3|||#Del#|||,|||REQUIRED|||-NONE-|||3
@@ -5679,6 +5739,7 @@ A 24 24|||#Del#|||other|||REQUIRED|||-NONE-|||3
 
 S In other words , cars would not be of use in the future because of these types of transportation being developed and invented .
 A 19 19|||#Del#|||are|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 19 19|||#Del#|||are|||REQUIRED|||-NONE-|||2
 A 19 19|||#Del#|||that were|||REQUIRED|||-NONE-|||3
 
@@ -5686,11 +5747,13 @@ S They come together for a 'LAN-party ' with the neighbour 's kids .
 A 9 10|||#Rc#|||neighbor|||REQUIRED|||-NONE-|||0
 A 9 10|||#Rc#|||neighbor|||REQUIRED|||-NONE-|||1
 A 9 10|||#Rc#|||neighbor|||REQUIRED|||-NONE-|||2
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||3
 
 S Also the lecture mentioned that the stone placed between the Sphinx 's front paws was not placed there during the time of the old kingdom 's king , Khafre .
 A 1 1|||#Del#|||,|||REQUIRED|||-NONE-|||0
 A 20 21|||#Rp#|||reign|||REQUIRED|||-NONE-|||0
 A 1 1|||#Del#|||,|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||2
 A 1 1|||#Del#|||,|||REQUIRED|||-NONE-|||3
 
 S but some young people do not give to helping their community .
@@ -5710,6 +5773,7 @@ S I give some of my time to help other people because I think it 's very importa
 A 1 2|||#Rs#|||spend|||REQUIRED|||-NONE-|||0
 A 6 7|||#Ins#||||||REQUIRED|||-NONE-|||0
 A 7 8|||#Ri#|||helping|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 
 S for example , here is one student , who knows fact but does not know how to~ ?
 A 10 10|||#Del#|||the|||REQUIRED|||-NONE-|||0
@@ -5733,6 +5797,7 @@ A 17 17|||#Del#|||to|||REQUIRED|||-NONE-|||3
 A 17 18|||#Rp#|||.|||REQUIRED|||-NONE-|||3
 
 S They can travel more freely than older people do .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 8 9|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 9 9|||#Del#|||can|||REQUIRED|||-NONE-|||2
 A 8 9|||#Ins#||||||REQUIRED|||-NONE-|||3
@@ -5783,6 +5848,7 @@ A 7 8|||#Ins#||||||REQUIRED|||-NONE-|||3
 S Among the many skills required is the knowledge of more than two languages .
 
 S However , it is so rare to find old people in pubs or in gymnasiums in China .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 8 9|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 9 9|||#Del#|||older|||REQUIRED|||-NONE-|||1
 A 13 14|||#Ins#||||||REQUIRED|||-NONE-|||1
@@ -5829,6 +5895,7 @@ A 12 13|||#Rp#|||a|||REQUIRED|||-NONE-|||3
 
 S The size of the treasure written is too large .
 A 5 6|||#Ins#||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 
 S So it is very strange that why the poeple were able to live without enough water for 50 years , and then moved because they did n't have enough water .
 A 6 9|||#Ins#||||||REQUIRED|||-NONE-|||0
@@ -5869,9 +5936,11 @@ A 7 7|||#Del#|||the|||REQUIRED|||-NONE-|||3
 A 14 14|||#Del#|||an|||REQUIRED|||-NONE-|||3
 
 S In the passage , it is said that only endotherm animals can maintain their temperature in such cold climates .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 9 10|||#Rp#|||endothermic|||REQUIRED|||-NONE-|||3
 
 S Thinking of their old ages , young people are try to make a better society for everybody .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 3 5|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 5 5|||#Del#|||future|||REQUIRED|||-NONE-|||1
 A 9 10|||#Ri#|||trying|||REQUIRED|||-NONE-|||1
@@ -5948,11 +6017,13 @@ S He 's the one who can give the different specialities the possibility to shine
 A 7 8|||#Rp#|||those|||REQUIRED|||-NONE-|||0
 A 8 8|||#Del#|||with|||REQUIRED|||-NONE-|||0
 A 11 12|||#Rp#|||chance|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 7 8|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 9 10|||#Rc#|||specialties|||REQUIRED|||-NONE-|||2
 A 11 12|||#Rp#|||opportunity|||REQUIRED|||-NONE-|||3
 
 S But generally , moments of happiness in life can not really be compared because they are different .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 0 1|||#Ins#||||||REQUIRED|||-NONE-|||3
 
 S Such peole impressed other people through their strong well and divoution to duty .
@@ -6054,6 +6125,7 @@ A 25 25|||#Del#|||, useless|||REQUIRED|||-NONE-|||2
 A 13 15|||#Ins#||||||REQUIRED|||-NONE-|||3
 
 S Sometimes their teachers only teach about the facts , which are easier to memorize .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 5 6|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 5 6|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 5 6|||#Ins#||||||REQUIRED|||-NONE-|||3
@@ -6067,6 +6139,7 @@ A 15 15|||#Del#|||,|||REQUIRED|||-NONE-|||2
 A 16 17|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 17 17|||#Del#|||wo|||REQUIRED|||-NONE-|||2
 A 25 26|||#Rp#|||the|||REQUIRED|||-NONE-|||2
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||3
 
 S So that they have to pay more attention to their health rather than to enjoy arts .
 A 1 2|||#Ins#||||||REQUIRED|||-NONE-|||0
@@ -6240,6 +6313,7 @@ A 25 26|||#Rp#|||beliefs|||REQUIRED|||-NONE-|||3
 
 S Is it merely understanding the idea behind that concept ?
 A 3 3|||#Del#|||about|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 
 S Making exercitation students can learn how to proceed in a correct way and making wrong operation they will be able to understand the concepts and don-t make the same errors or mistakes in the future .
 A 0 1|||#Ins#||||||REQUIRED|||-NONE-|||0
@@ -6313,6 +6387,7 @@ A 14 15|||#Ri#|||classes|||REQUIRED|||-NONE-|||3
 
 S what is the world and what are we supposed to do here ?
 A 2 3|||#Rp#|||this|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 4 4|||#Del#|||,|||REQUIRED|||-NONE-|||2
 
 S This priedo not enough to evaluate the student .
@@ -6326,6 +6401,7 @@ A 2 2|||#Del#|||is|||REQUIRED|||-NONE-|||3
 
 S Secondly , Earth ground had heat .
 A 3 4|||#Ins#||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 2 2|||#Del#|||the|||REQUIRED|||-NONE-|||2
 A 3 3|||#Del#|||'s|||REQUIRED|||-NONE-|||2
 A 2 2|||#Del#|||the|||REQUIRED|||-NONE-|||3
@@ -6580,6 +6656,7 @@ A 20 20|||#Del#|||that|||REQUIRED|||-NONE-|||3
 A 22 23|||#Rp#|||want|||REQUIRED|||-NONE-|||3
 
 S Most scientists say these bass play a much more significant role in the decrease of the menhaden population .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 3 4|||#Rp#|||the|||REQUIRED|||-NONE-|||2
 
 S When someone have more than one academic subject it would be more amazing , interresting , positive , great , and helpfull .
@@ -6620,6 +6697,7 @@ A 4 5|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 5 5|||#Del#|||there|||REQUIRED|||-NONE-|||3
 
 S because we are watching movie earn something .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 0 1|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 4 4|||#Del#|||a|||REQUIRED|||-NONE-|||2
 A 5 5|||#Del#|||to|||REQUIRED|||-NONE-|||2
@@ -6722,6 +6800,7 @@ A 36 37|||#Ri#|||ones|||REQUIRED|||-NONE-|||3
 
 S It is therefore necessary to understand the idea behind it and come up with a well-organized concept .
 A 2 3|||#Ins#||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 15 16|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 16 16|||#Del#|||well organized|||REQUIRED|||-NONE-|||2
 
@@ -6761,6 +6840,7 @@ A 8 9|||#Ins#||||||REQUIRED|||-NONE-|||3
 
 S So a prohibition would n't solve the real problem .
 A 0 1|||#Ins#||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 1 2|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 0 1|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 1 1|||#Del#|||Therefore ,|||REQUIRED|||-NONE-|||3
@@ -6973,6 +7053,7 @@ A 7 8|||#Ri#|||are|||REQUIRED|||-NONE-|||0
 A 11 12|||#Ins#||||||REQUIRED|||-NONE-|||0
 A 16 17|||#Ins#||||||REQUIRED|||-NONE-|||0
 A 18 19|||#Ri#|||degrees|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 10 10|||#Del#|||their|||REQUIRED|||-NONE-|||3
 A 11 12|||#Ins#||||||REQUIRED|||-NONE-|||3
 
@@ -7044,6 +7125,7 @@ A 10 10|||#Del#|||it|||REQUIRED|||-NONE-|||0
 A 21 22|||#Rp#|||rather|||REQUIRED|||-NONE-|||0
 A 22 22|||#Del#|||than|||REQUIRED|||-NONE-|||0
 A 23 23|||#Del#|||taking|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 9 10|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 10 10|||#Del#|||it|||REQUIRED|||-NONE-|||2
 A 9 10|||#Ins#||||||REQUIRED|||-NONE-|||3
@@ -7054,6 +7136,7 @@ A 2 3|||#Ins#||||||REQUIRED|||-NONE-|||0
 A 3 3|||#Del#|||uses|||REQUIRED|||-NONE-|||0
 A 2 3|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 3 3|||#Del#|||uses|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||2
 A 2 3|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 3 3|||#Del#|||uses|||REQUIRED|||-NONE-|||3
 
@@ -7142,6 +7225,7 @@ S But if all you want is stay at home and live on your own , perhaps it is not t
 A 6 6|||#Del#|||to|||REQUIRED|||-NONE-|||0
 A 6 6|||#Del#|||to|||REQUIRED|||-NONE-|||1
 A 6 6|||#Del#|||to|||REQUIRED|||-NONE-|||2
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||3
 
 S Our country have been criticizing on the one way teaching .
 A 1 2|||#Ri#|||countries|||REQUIRED|||-NONE-|||0
@@ -7216,6 +7300,7 @@ A 6 7|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 8 8|||#Del#|||now|||REQUIRED|||-NONE-|||1
 A 6 7|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 8 8|||#Del#|||now|||REQUIRED|||-NONE-|||2
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||3
 
 S In the twenty years , they also can give us the better cars to use less resources-consumed transportation tools and give us the much more convenience tools for our travelling .
 A 1 2|||#Ins#||||||REQUIRED|||-NONE-|||0
@@ -7260,6 +7345,7 @@ A 29 30|||#Ri#|||travel|||REQUIRED|||-NONE-|||3
 
 S It is necessary a breakthrough event or product to succeed .
 A 3 3|||#Del#|||for|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 3 3|||#Del#|||for|||REQUIRED|||-NONE-|||2
 A 0 3|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 8 8|||#Del#|||is necessary|||REQUIRED|||-NONE-|||3
@@ -7499,9 +7585,11 @@ A 2 3|||#Rc#|||yourself|||REQUIRED|||-NONE-|||3
 A 8 9|||#Rc#|||future|||REQUIRED|||-NONE-|||3
 
 S But if I was trying to do all the sight-seeing without a tour guide , that would be very difficult and dangerous .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 9 10|||#Rc#|||sightseeing|||REQUIRED|||-NONE-|||1
 
 S When we talk about the so-called value of a product , we envision a scenario where dozens of products are available in supermarket shelves and when you switch on a television , there is an endless stream of commercials , each claiming exciting new features about the products advertised .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 21 22|||#Rp#|||on|||REQUIRED|||-NONE-|||1
 A 33 34|||#Ri#|||are|||REQUIRED|||-NONE-|||1
 A 21 22|||#Rp#|||on|||REQUIRED|||-NONE-|||2
@@ -7525,6 +7613,7 @@ A 13 14|||#Rp#|||trustworthy|||REQUIRED|||-NONE-|||2
 A 13 14|||#Rp#|||trustworthy|||REQUIRED|||-NONE-|||3
 
 S For example , the hamburgers in the commercials and menus look way more juicy , neat , and fresh than the ones you buy .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 5 5|||#Del#|||shown|||REQUIRED|||-NONE-|||2
 A 5 6|||#Rp#|||on|||REQUIRED|||-NONE-|||2
 A 16 17|||#Ins#||||||REQUIRED|||-NONE-|||3
@@ -7717,6 +7806,7 @@ A 3 5|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 5 5|||#Del#|||, most businesses|||REQUIRED|||-NONE-|||1
 A 6 7|||#Rp#|||online|||REQUIRED|||-NONE-|||1
 A 7 7|||#Del#|||businesses|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||2
 A 3 4|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 4 4|||#Del#|||, the new|||REQUIRED|||-NONE-|||3
 A 6 7|||#Ins#||||||REQUIRED|||-NONE-|||3
@@ -8003,6 +8093,7 @@ A 30 31|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 31 31|||#Del#|||depends|||REQUIRED|||-NONE-|||3
 
 S the fact is that it would rain when the specific condition is prepared .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 5 6|||#Rp#|||will|||REQUIRED|||-NONE-|||1
 A 10 12|||#Ri#|||conditions are|||REQUIRED|||-NONE-|||1
 A 12 13|||#Rp#|||met|||REQUIRED|||-NONE-|||1
@@ -8099,6 +8190,7 @@ A 17 17|||#Del#|||to go|||REQUIRED|||-NONE-|||3
 A 18 18|||#Del#|||only|||REQUIRED|||-NONE-|||3
 
 S There seem to be too many hurdles present in the growth of the car industry in recent times .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 1 2|||#Ri#|||seems|||REQUIRED|||-NONE-|||1
 A 7 9|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 9 9|||#Del#|||preventing|||REQUIRED|||-NONE-|||2
@@ -8204,6 +8296,7 @@ S The first is our life condition .
 A 5 5|||#Del#|||'s|||REQUIRED|||-NONE-|||0
 A 5 6|||#Ri#|||conditions|||REQUIRED|||-NONE-|||0
 A 2 2|||#Del#|||one|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||2
 
 S for example if successful people do n't try new things how people could do the airplane , cars , computers , etc .
 A 2 2|||#Del#|||,|||REQUIRED|||-NONE-|||0
@@ -8258,6 +8351,7 @@ A 2 3|||#Rc#|||people|||REQUIRED|||-NONE-|||2
 A 2 3|||#Rc#|||people|||REQUIRED|||-NONE-|||3
 
 S I went to the Wegman to buy the watch because I thought it would be nice to have one .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 3 4|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 4 5|||#Ri#|||Wegmans|||REQUIRED|||-NONE-|||2
 A 3 4|||#Ins#||||||REQUIRED|||-NONE-|||3
@@ -8277,6 +8371,7 @@ A 10 11|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 11 11|||#Del#|||people to|||REQUIRED|||-NONE-|||3
 
 S Firstly , it is hard for young people to find time to help their community .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 0 1|||#Rp#|||First|||REQUIRED|||-NONE-|||3
 A 10 10|||#Del#|||the|||REQUIRED|||-NONE-|||3
 
@@ -8320,6 +8415,7 @@ A 5 6|||#Ri#|||do|||REQUIRED|||-NONE-|||3
 S So , cars have a positive impact on the economy and I do n't think that the government will try to put restrictions on this .
 A 1 2|||#Ins#||||||REQUIRED|||-NONE-|||0
 A 24 25|||#Rp#|||that|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 1 2|||#Ins#||||||REQUIRED|||-NONE-|||3
 
 S Gone are those days when only rich could have afforded it .
@@ -8333,6 +8429,7 @@ A 2 3|||#Rp#|||the|||REQUIRED|||-NONE-|||3
 A 6 6|||#Del#|||the|||REQUIRED|||-NONE-|||3
 
 S Even if we do not have one ourselves , other people utilize them to make our lives easier - be it a transporter bringing food to the supermarket or the car that brings us to the hospital in case of a severe accident .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 6 7|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 7 7|||#Del#|||a vehicle|||REQUIRED|||-NONE-|||1
 A 18 19|||#Ins#||||||REQUIRED|||-NONE-|||1
@@ -8355,11 +8452,13 @@ A 12 13|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 13 13|||#Del#|||, which|||REQUIRED|||-NONE-|||3
 
 S This does n't destroy our culture , because our culture has changed .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 6 7|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 6 7|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 6 7|||#Ins#||||||REQUIRED|||-NONE-|||3
 
 S Our current status of living is highly energy intensive .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 2 3|||#Rp#|||form|||REQUIRED|||-NONE-|||2
 A 6 7|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 2 3|||#Rp#|||way|||REQUIRED|||-NONE-|||3
@@ -8545,6 +8644,7 @@ A 13 13|||#Del#|||of|||REQUIRED|||-NONE-|||3
 S The basic requirements of today 's man has changed .
 A 7 8|||#Ri#|||have|||REQUIRED|||-NONE-|||0
 A 7 8|||#Ri#|||have|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||2
 
 S One can have alot of fun or enjoyment on the trip ; if you are guided by the person who known the area .
 A 3 3|||#Del#|||a|||REQUIRED|||-NONE-|||0
@@ -8580,6 +8680,7 @@ A 10 11|||#Ri#|||giving|||REQUIRED|||-NONE-|||2
 A 8 9|||#Ins#||||||REQUIRED|||-NONE-|||3
 
 S The only possible answer I can come up with is that success is understood to be the ability to invent new ideas , to put into practice novel theories or strategies .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 22 23|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 23 23|||#Del#|||and|||REQUIRED|||-NONE-|||2
 A 25 25|||#Del#|||them|||REQUIRED|||-NONE-|||2
@@ -8608,6 +8709,7 @@ A 9 9|||#Del#|||on|||REQUIRED|||-NONE-|||3
 
 S The population explosion is another factor catalysing the consumption of energy resources .
 A 6 7|||#Rc#|||catalyzing|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 6 7|||#Rc#|||catalyzing|||REQUIRED|||-NONE-|||2
 
 S Why should I do that ?
@@ -8712,6 +8814,7 @@ A 30 31|||#Rp#|||accommodated|||REQUIRED|||-NONE-|||3
 A 32 33|||#Rp#|||a|||REQUIRED|||-NONE-|||3
 
 S And the risk is one of these opportunities .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 0 1|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 1 2|||#Ins#||||||REQUIRED|||-NONE-|||3
 
@@ -8848,6 +8951,7 @@ A 9 10|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 12 13|||#Ins#||||||REQUIRED|||-NONE-|||3
 
 S A person can not be successful if they act the same as regular people .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 11 11|||#Del#|||way|||REQUIRED|||-NONE-|||2
 
 S They will have tremendous problem trying to keep their car at a safe place .
@@ -8887,6 +8991,7 @@ A 2 3|||#Ri#|||limits|||REQUIRED|||-NONE-|||1
 A 4 4|||#Del#|||the|||REQUIRED|||-NONE-|||1
 A 4 5|||#Ri#|||ways|||REQUIRED|||-NONE-|||1
 A 10 10|||#Del#|||,|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||2
 A 2 2|||#Del#|||a|||REQUIRED|||-NONE-|||3
 A 4 4|||#Del#|||the|||REQUIRED|||-NONE-|||3
 A 5 5|||#Del#|||in|||REQUIRED|||-NONE-|||3
@@ -8909,6 +9014,7 @@ A 6 8|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 8 8|||#Del#|||satisfied with|||REQUIRED|||-NONE-|||3
 
 S Moreover , the decision of others could be wrong .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 2 5|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 6 6|||#Del#|||' decisions|||REQUIRED|||-NONE-|||3
 
@@ -8951,6 +9057,7 @@ A 8 8|||#Del#|||of|||REQUIRED|||-NONE-|||3
 
 S Youngsters , being healthy , have less things to worry about .
 A 6 7|||#Rp#|||fewer|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 6 7|||#Rp#|||fewer|||REQUIRED|||-NONE-|||3
 
 S She believes people can increase their cultural sense by good pieces of music or preciuos movies too .
@@ -9009,6 +9116,7 @@ A 10 11|||#Ri#|||jobs|||REQUIRED|||-NONE-|||3
 S I think that the biggest reason is devised environment compared with past .
 A 7 7|||#Del#|||that the|||REQUIRED|||-NONE-|||0
 A 11 11|||#Del#|||the|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 9 9|||#Del#|||when|||REQUIRED|||-NONE-|||2
 A 11 11|||#Del#|||the|||REQUIRED|||-NONE-|||2
 A 7 8|||#Ins#||||||REQUIRED|||-NONE-|||3
@@ -9139,6 +9247,7 @@ A 10 11|||#Rp#|||a|||REQUIRED|||-NONE-|||3
 S The other is about the extreme lengths to conserve water .
 A 2 2|||#Del#|||one|||REQUIRED|||-NONE-|||0
 A 7 7|||#Del#|||you can go|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 7 7|||#Del#|||taken|||REQUIRED|||-NONE-|||2
 A 7 7|||#Del#|||taken|||REQUIRED|||-NONE-|||3
 
@@ -9153,6 +9262,7 @@ A 14 14|||#Del#|||,|||REQUIRED|||-NONE-|||2
 A 11 11|||#Del#|||to|||REQUIRED|||-NONE-|||3
 
 S The first theory is that birds navigate in reference to celestial objects like the sun and stars .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 12 12|||#Del#|||,|||REQUIRED|||-NONE-|||2
 
 S Every house nowdays has a computer , mobile , etc.this is the thing today 's man want to live .
@@ -9181,6 +9291,7 @@ A 12 13|||#Rp#|||way|||REQUIRED|||-NONE-|||3
 A 16 17|||#Ri#|||wants|||REQUIRED|||-NONE-|||3
 
 S You might be able to be a very successful scholar of the language , but you might not be able to speak the language at all .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 15 17|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 18 19|||#Ins#||||||REQUIRED|||-NONE-|||2
 
@@ -9204,6 +9315,7 @@ A 7 8|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 8 9|||#Rp#|||mindset|||REQUIRED|||-NONE-|||3
 
 S Those problems do not exist for an online encyclopedia , which can be reached by everybody who has access to an internet connection .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 15 16|||#Rp#|||everyone|||REQUIRED|||-NONE-|||2
 
 S Second , if park has fires , animal that in the park do n't survival .
@@ -9234,6 +9346,7 @@ A 13 13|||#Del#|||wo|||REQUIRED|||-NONE-|||3
 
 S I think the shrinking market conditions force car companies to fight harder to survive .
 A 3 4|||#Rp#|||worsening|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 
 S Then this phenomena reminds them , it comes the time of refering to other subjects .
 A 5 6|||#Ins#||||||REQUIRED|||-NONE-|||0
@@ -9298,10 +9411,12 @@ A 6 7|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 8 10|||#Ins#||||||REQUIRED|||-NONE-|||3
 
 S I have great influence on my life .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 3 4|||#Ri#|||influences|||REQUIRED|||-NONE-|||1
 A 4 5|||#Rp#|||in|||REQUIRED|||-NONE-|||1
 
 S After all , we are the internet generation .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 6 7|||#Rp#|||generation|||REQUIRED|||-NONE-|||2
 A 7 7|||#Del#|||of the|||REQUIRED|||-NONE-|||2
 A 7 8|||#Rp#|||Internet|||REQUIRED|||-NONE-|||2
@@ -9318,6 +9433,7 @@ A 4 5|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 5 5|||#Del#|||,|||REQUIRED|||-NONE-|||1
 A 7 8|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 8 8|||#Del#|||in|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||2
 A 0 3|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 4 5|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 5 5|||#Del#|||is|||REQUIRED|||-NONE-|||3
@@ -9397,11 +9513,13 @@ A 12 13|||#Rc#|||could|||REQUIRED|||-NONE-|||3
 A 15 15|||#Del#|||because of our fast-paced societies|||REQUIRED|||-NONE-|||3
 
 S Otherwise , We are sick and tired of living in the world .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 10 11|||#Rp#|||this|||REQUIRED|||-NONE-|||1
 A 3 3|||#Del#|||will|||REQUIRED|||-NONE-|||3
 A 3 4|||#Ri#|||be|||REQUIRED|||-NONE-|||3
 
 S Take the example of Bangalore city in India .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 1 2|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 2 2|||#Del#|||, for|||REQUIRED|||-NONE-|||1
 A 3 4|||#Ins#||||||REQUIRED|||-NONE-|||1
@@ -9455,6 +9573,7 @@ A 12 13|||#Ri#|||was|||REQUIRED|||-NONE-|||3
 
 S Therefore , many psychological tricks are used to let a product seem more attractive than it is in reality .
 A 8 9|||#Rs#|||make|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 8 9|||#Rs#|||make|||REQUIRED|||-NONE-|||2
 A 8 9|||#Rs#|||make|||REQUIRED|||-NONE-|||3
 
@@ -9472,10 +9591,12 @@ S These factors can only contribute to growth in number of cars .
 A 6 6|||#Del#|||the|||REQUIRED|||-NONE-|||0
 A 8 8|||#Del#|||the|||REQUIRED|||-NONE-|||0
 A 8 8|||#Del#|||the|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||2
 A 6 6|||#Del#|||a|||REQUIRED|||-NONE-|||3
 A 8 8|||#Del#|||the|||REQUIRED|||-NONE-|||3
 
 S We do not need to look for parking space .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 7 7|||#Del#|||a|||REQUIRED|||-NONE-|||1
 A 7 7|||#Del#|||a|||REQUIRED|||-NONE-|||2
 A 7 7|||#Del#|||a|||REQUIRED|||-NONE-|||3
@@ -9512,6 +9633,7 @@ A 1 2|||#Ins#||||||REQUIRED|||-NONE-|||0
 A 15 15|||#Del#|||,|||REQUIRED|||-NONE-|||0
 A 1 2|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 15 15|||#Del#|||,|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||2
 
 S Why there is n't one that was left around Tunguska ?
 A 1 2|||#Ins#||||||REQUIRED|||-NONE-|||0
@@ -9519,6 +9641,7 @@ A 4 4|||#Del#|||there|||REQUIRED|||-NONE-|||0
 A 5 7|||#Ins#||||||REQUIRED|||-NONE-|||0
 A 1 2|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 4 4|||#Del#|||there|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||2
 A 5 7|||#Ins#||||||REQUIRED|||-NONE-|||3
 
 S Have you ever think about this ?
@@ -9528,6 +9651,7 @@ A 3 4|||#Ri#|||thought|||REQUIRED|||-NONE-|||2
 A 3 4|||#Ri#|||thought|||REQUIRED|||-NONE-|||3
 
 S Because students are young .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 0 0|||#Del#|||It is|||REQUIRED|||-NONE-|||1
 A 1 1|||#Del#|||the|||REQUIRED|||-NONE-|||1
 
@@ -9763,6 +9887,7 @@ A 17 18|||#Ri#|||are|||REQUIRED|||-NONE-|||3
 A 21 22|||#Ri#|||facts|||REQUIRED|||-NONE-|||3
 
 S They wander in the streets wearing all kinds of clothes .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 2 3|||#Rp#|||through|||REQUIRED|||-NONE-|||2
 A 6 7|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 7 7|||#Del#|||many|||REQUIRED|||-NONE-|||2
@@ -9782,6 +9907,7 @@ A 13 14|||#Ins#||||||REQUIRED|||-NONE-|||3
 S But this does not happen .
 
 S In history , for example , it is helpful to understand what event causes another one , and why ; in this way , it is easier to learn that the first one occurs before the second one , and thus it is easier to learn dates .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 28 29|||#Rp#|||recall|||REQUIRED|||-NONE-|||2
 A 16 17|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 19 20|||#Ins#||||||REQUIRED|||-NONE-|||3
@@ -9792,6 +9918,7 @@ A 9 9|||#Del#|||,|||REQUIRED|||-NONE-|||0
 A 4 4|||#Del#|||,|||REQUIRED|||-NONE-|||1
 A 9 9|||#Del#|||,|||REQUIRED|||-NONE-|||1
 A 9 9|||#Del#|||,|||REQUIRED|||-NONE-|||2
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||3
 
 S There are my children who are not going to school or colleges and coming to movies .
 A 0 1|||#Ins#||||||REQUIRED|||-NONE-|||0
@@ -9879,6 +10006,7 @@ A 19 20|||#Rp#|||that|||REQUIRED|||-NONE-|||2
 A 9 10|||#Rp#|||examples|||REQUIRED|||-NONE-|||3
 
 S This is obvious from the fact that when the mind is not clear and free , man can not involve himself completely in doing any activity .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 2 2|||#Del#|||made|||REQUIRED|||-NONE-|||1
 A 16 16|||#Del#|||a|||REQUIRED|||-NONE-|||1
 A 0 1|||#Ins#||||||REQUIRED|||-NONE-|||3
@@ -9897,6 +10025,7 @@ A 8 9|||#Rp#|||about|||REQUIRED|||-NONE-|||3
 S First , young people have a lot of problems .
 A 0 1|||#Ins#||||||REQUIRED|||-NONE-|||0
 A 1 1|||#Del#|||Firstly|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 
 S This is an effective solution to stop an advancing fires .
 A 9 10|||#Ri#|||fire|||REQUIRED|||-NONE-|||0
@@ -10008,10 +10137,12 @@ A 2 3|||#Ri#|||are|||REQUIRED|||-NONE-|||3
 A 6 6|||#Del#|||the|||REQUIRED|||-NONE-|||3
 
 S They share their views and ideas within a group .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 7 8|||#Rp#|||the|||REQUIRED|||-NONE-|||1
 A 7 8|||#Rp#|||the|||REQUIRED|||-NONE-|||3
 
 S Hope is the main key for finding new task .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 7 7|||#Del#|||a|||REQUIRED|||-NONE-|||1
 A 5 6|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 6 6|||#Del#|||to|||REQUIRED|||-NONE-|||2
@@ -10020,6 +10151,7 @@ A 3 5|||#Rp#|||key ingredient|||REQUIRED|||-NONE-|||3
 A 8 9|||#Ri#|||tasks|||REQUIRED|||-NONE-|||3
 
 S This is because , the choice can appear to students as a common part .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 3 4|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 3 4|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 13 14|||#Rp#|||thing|||REQUIRED|||-NONE-|||3
@@ -10175,6 +10307,7 @@ A 17 18|||#Ri#|||subjects|||REQUIRED|||-NONE-|||0
 A 7 8|||#Ri#|||subjects|||REQUIRED|||-NONE-|||1
 A 17 18|||#Ri#|||subjects|||REQUIRED|||-NONE-|||1
 A 21 22|||#Rp#|||very|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||2
 A 0 2|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 2 2|||#Del#|||With a|||REQUIRED|||-NONE-|||3
 A 7 8|||#Ri#|||subjects|||REQUIRED|||-NONE-|||3
@@ -10211,6 +10344,7 @@ A 3 4|||#Ri#|||feeling|||REQUIRED|||-NONE-|||3
 A 8 8|||#Del#|||a|||REQUIRED|||-NONE-|||3
 
 S but on the other hand , we have a risk to poison this product , because farmers often feed their fish growth-inducing chemicals .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 0 1|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 7 9|||#Rp#|||run the|||REQUIRED|||-NONE-|||2
 A 10 11|||#Ins#||||||REQUIRED|||-NONE-|||2
@@ -10341,6 +10475,7 @@ A 22 23|||#Ri#|||number|||REQUIRED|||-NONE-|||2
 A 16 17|||#Rp#|||would|||REQUIRED|||-NONE-|||3
 
 S But it depends on what level we gain this knowledge .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 6 6|||#Del#|||of knowledge|||REQUIRED|||-NONE-|||2
 A 8 10|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 7 7|||#Del#|||have|||REQUIRED|||-NONE-|||3
@@ -10439,6 +10574,7 @@ A 7 7|||#Del#|||,|||REQUIRED|||-NONE-|||3
 A 7 8|||#Ri#|||are|||REQUIRED|||-NONE-|||3
 
 S This is merely an opinion based on present , albeit established facts .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 7 7|||#Del#|||the|||REQUIRED|||-NONE-|||1
 A 11 11|||#Del#|||,|||REQUIRED|||-NONE-|||2
 A 7 8|||#Ins#||||||REQUIRED|||-NONE-|||3
@@ -10606,6 +10742,7 @@ A 20 21|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 22 22|||#Del#|||the|||REQUIRED|||-NONE-|||3
 
 S Everybody deserve to enjoy life .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 1 2|||#Ri#|||deserves|||REQUIRED|||-NONE-|||1
 A 1 2|||#Ri#|||deserves|||REQUIRED|||-NONE-|||2
 A 1 2|||#Ri#|||deserves|||REQUIRED|||-NONE-|||3
@@ -10763,6 +10900,7 @@ A 14 15|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 19 19|||#Del#|||to live|||REQUIRED|||-NONE-|||3
 
 S It is related strongly to our daily life .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 2 3|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 4 4|||#Del#|||related|||REQUIRED|||-NONE-|||1
 A 2 3|||#Ins#||||||REQUIRED|||-NONE-|||3
@@ -10822,6 +10960,7 @@ A 35 38|||#Ins#||||||REQUIRED|||-NONE-|||3
 
 S If there were no concerned adults who had to care for the feeding , care and well being of those children , humanity as we know it would not exist .
 A 11 12|||#Ins#||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 16 18|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 18 18|||#Del#|||well-being|||REQUIRED|||-NONE-|||2
 
@@ -10830,6 +10969,7 @@ A 3 3|||#Del#|||,|||REQUIRED|||-NONE-|||0
 A 24 25|||#Rp#|||and|||REQUIRED|||-NONE-|||0
 A 3 3|||#Del#|||,|||REQUIRED|||-NONE-|||1
 A 24 25|||#Rp#|||and|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||2
 A 3 3|||#Del#|||,|||REQUIRED|||-NONE-|||3
 A 12 12|||#Del#|||,|||REQUIRED|||-NONE-|||3
 A 24 24|||#Del#|||,|||REQUIRED|||-NONE-|||3
@@ -10889,6 +11029,7 @@ A 6 7|||#Ins#||||||REQUIRED|||-NONE-|||3
 
 S It would be similar to adding a few drops of water to the ocean .
 A 5 6|||#Ri#|||add|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 
 S For usually success is connected with some achievement .
 A 0 1|||#Ins#||||||REQUIRED|||-NONE-|||0
@@ -11008,11 +11149,13 @@ A 20 21|||#Rp#|||anything|||REQUIRED|||-NONE-|||3
 A 21 22|||#Rc#|||else|||REQUIRED|||-NONE-|||3
 
 S During the Mao regime , cars were only accessible for politicians or privileged party members .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 9 10|||#Rp#|||by|||REQUIRED|||-NONE-|||3
 
 S They say that they have some reasons .
 
 S They are very young and they do not have a job so they can not finish their studying .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 7 8|||#Rp#|||n't|||REQUIRED|||-NONE-|||1
 A 13 15|||#Rp#|||ca n't|||REQUIRED|||-NONE-|||1
 A 5 6|||#Ins#||||||REQUIRED|||-NONE-|||2
@@ -11160,6 +11303,7 @@ A 3 3|||#Del#|||that|||REQUIRED|||-NONE-|||0
 A 6 7|||#Rp#|||in|||REQUIRED|||-NONE-|||0
 A 3 3|||#Del#|||that|||REQUIRED|||-NONE-|||1
 A 6 7|||#Rp#|||from|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||2
 A 3 3|||#Del#|||that|||REQUIRED|||-NONE-|||3
 A 4 5|||#Rp#|||caused|||REQUIRED|||-NONE-|||3
 A 5 5|||#Del#|||the|||REQUIRED|||-NONE-|||3
@@ -11188,6 +11332,7 @@ A 6 7|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 7 7|||#Del#|||than|||REQUIRED|||-NONE-|||3
 
 S And you can not imagine any government giving up so many workplaces for unemployment .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 0 1|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 2 4|||#Rp#|||ca n't|||REQUIRED|||-NONE-|||1
 A 12 12|||#Del#|||resulting|||REQUIRED|||-NONE-|||2
@@ -11290,6 +11435,7 @@ A 38 38|||#Del#|||them|||REQUIRED|||-NONE-|||3
 A 38 39|||#Rp#|||feel|||REQUIRED|||-NONE-|||3
 
 S For example , famous businessman travel over the world everyday !
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 6 6|||#Del#|||all|||REQUIRED|||-NONE-|||1
 A 4 5|||#Rc#|||businessmen|||REQUIRED|||-NONE-|||2
 A 9 9|||#Del#|||every|||REQUIRED|||-NONE-|||2
@@ -11298,6 +11444,7 @@ A 4 5|||#Rc#|||businessmen|||REQUIRED|||-NONE-|||3
 A 6 6|||#Del#|||all|||REQUIRED|||-NONE-|||3
 
 S The knowledge we have will increase our ability to compete in the future .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 5 6|||#Rp#|||improve|||REQUIRED|||-NONE-|||2
 
 S There are a lot of car company and every year they made at least a 6 or 7 or 8 or more new car .
@@ -11473,18 +11620,22 @@ A 27 28|||#Rs#|||decline|||REQUIRED|||-NONE-|||3
 A 28 29|||#Rp#|||in|||REQUIRED|||-NONE-|||3
 
 S He knows many countries around the world .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 2 2|||#Del#|||of|||REQUIRED|||-NONE-|||2
 
 S Because getting old is not just age .
 A 6 6|||#Del#|||about|||REQUIRED|||-NONE-|||0
 A 6 6|||#Del#|||about|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||2
 A 6 6|||#Del#|||about|||REQUIRED|||-NONE-|||3
 A 6 7|||#Ri#|||aging|||REQUIRED|||-NONE-|||3
 
 S It 's not really good .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 3 4|||#Rp#|||very|||REQUIRED|||-NONE-|||2
 
 S Maybe when the economy is bad , such people can find new jobs quickly , but it may not be the best job they can do .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 25 26|||#Rs#|||get|||REQUIRED|||-NONE-|||1
 A 23 23|||#Del#|||for|||REQUIRED|||-NONE-|||2
 A 23 24|||#Rc#|||them|||REQUIRED|||-NONE-|||2
@@ -11624,6 +11775,7 @@ A 12 13|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 13 14|||#Rc#|||ancient|||REQUIRED|||-NONE-|||3
 
 S However , the importance of the knowledge of facts can not be underestimated .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 5 7|||#Ins#||||||REQUIRED|||-NONE-|||2
 A 7 7|||#Del#|||being knowledgable|||REQUIRED|||-NONE-|||2
 
@@ -11718,6 +11870,7 @@ A 50 50|||#Del#|||speech|||REQUIRED|||-NONE-|||3
 S Do you give it to another person to solve ?
 A 0 1|||#Ri#|||Did|||REQUIRED|||-NONE-|||0
 A 0 1|||#Ri#|||Did|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||2
 
 S Everybody all knows sport can improve our body , But we need try by ourself than we will know , yes , sport real can help us to get a health boay .
 A 1 2|||#Ins#||||||REQUIRED|||-NONE-|||0
@@ -11788,6 +11941,7 @@ A 20 21|||#Rc#|||useful|||REQUIRED|||-NONE-|||3
 
 S However , I think that what students like is more important .
 A 4 5|||#Ins#||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 
 S They are simply manipulated by the idea of the top-product like best seller , brand , luxuries and briefly think about their own safe .
 A 23 24|||#Rs#|||safety|||REQUIRED|||-NONE-|||0
@@ -11825,6 +11979,7 @@ A 2 3|||#Ri#|||showed|||REQUIRED|||-NONE-|||3
 A 14 16|||#Rp#|||going to|||REQUIRED|||-NONE-|||3
 
 S You will be like in one or two or three academic , you get it coz everything you know you can appear it use together to make something better .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 3 4|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 6 9|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 9 9|||#Del#|||to|||REQUIRED|||-NONE-|||3
@@ -11856,6 +12011,7 @@ A 12 12|||#Del#|||by|||REQUIRED|||-NONE-|||0
 A 9 9|||#Del#|||to what|||REQUIRED|||-NONE-|||1
 A 11 12|||#Ri#|||causing|||REQUIRED|||-NONE-|||1
 A 12 12|||#Del#|||the|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||2
 A 9 9|||#Del#|||burning|||REQUIRED|||-NONE-|||3
 A 10 11|||#Rp#|||have|||REQUIRED|||-NONE-|||3
 
@@ -11881,6 +12037,7 @@ A 14 15|||#Rp#|||million|||REQUIRED|||-NONE-|||3
 S Thus , after you return to the city , you may became brothers .
 A 11 12|||#Ri#|||become|||REQUIRED|||-NONE-|||0
 A 11 12|||#Ri#|||become|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||2
 A 11 12|||#Ri#|||become|||REQUIRED|||-NONE-|||3
 
 S Its not incorrect to say that the world is losing some great support system to which the young people can greatly contribute .
@@ -11931,6 +12088,7 @@ S This is probably because we are all , in general , pampered from the time we w
 A 16 17|||#Ri#|||are|||REQUIRED|||-NONE-|||0
 A 16 17|||#Ri#|||are|||REQUIRED|||-NONE-|||1
 A 16 17|||#Ri#|||are|||REQUIRED|||-NONE-|||2
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||3
 
 S The listening part give usinformation Vulcan which was found on Mars and also there was found a bacteria but no one can indicate what kind of bacteria was taha .
 A 3 4|||#Ri#|||gives|||REQUIRED|||-NONE-|||0
@@ -11974,6 +12132,7 @@ A 6 6|||#Del#|||the|||REQUIRED|||-NONE-|||1
 A 8 10|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 10 10|||#Del#|||when|||REQUIRED|||-NONE-|||1
 A 11 11|||#Del#|||a|||REQUIRED|||-NONE-|||1
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||2
 A 6 6|||#Del#|||a|||REQUIRED|||-NONE-|||3
 A 8 9|||#Rp#|||for|||REQUIRED|||-NONE-|||3
 A 9 10|||#Ins#||||||REQUIRED|||-NONE-|||3
@@ -12021,6 +12180,7 @@ A 16 17|||#Rs#|||believe|||REQUIRED|||-NONE-|||3
 A 25 25|||#Del#|||common|||REQUIRED|||-NONE-|||3
 
 S Learning how to play the piano or dance ballet may have been a privilege in the past , but this is not so now .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 21 24|||#Rp#|||no longer so|||REQUIRED|||-NONE-|||1
 A 7 8|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 8 8|||#Del#|||do|||REQUIRED|||-NONE-|||3
@@ -12102,6 +12262,7 @@ A 11 12|||#Ins#||||||REQUIRED|||-NONE-|||3
 
 S They are moved by solar energy .
 A 2 3|||#Ri#|||moving|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 2 3|||#Rs#|||propelled|||REQUIRED|||-NONE-|||3
 
 S it is ture .
@@ -12149,11 +12310,13 @@ A 2 2|||#Del#|||graduated|||REQUIRED|||-NONE-|||3
 A 2 3|||#Rp#|||from|||REQUIRED|||-NONE-|||3
 
 S On the other hand , in the lecture , the absence of a crater in Tunguska demands atmosphere .
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 A 16 17|||#Ins#||||||REQUIRED|||-NONE-|||3
 A 17 17|||#Del#|||was due to the|||REQUIRED|||-NONE-|||3
 
 S A lesson is another new thing you gained from an experience .
 A 7 8|||#Ri#|||gain|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||1
 A 7 8|||#Ri#|||gain|||REQUIRED|||-NONE-|||3
 
 S The youth today are aware of their responsibilites as a citizen .
@@ -12265,4 +12428,4 @@ A 6 7|||#Ins#||||||REQUIRED|||-NONE-|||0
 A 7 7|||#Del#|||to|||REQUIRED|||-NONE-|||0
 A 6 7|||#Ins#||||||REQUIRED|||-NONE-|||1
 A 7 7|||#Del#|||to|||REQUIRED|||-NONE-|||1
-
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||2
