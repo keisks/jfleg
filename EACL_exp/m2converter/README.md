@@ -6,6 +6,7 @@ The m2 converter takes source and reference sentences and create .m2 annotation.
 
 
 - prerequisites
+  - python (<=3.6)
   - nltk
   - pattern
   - stanford pos tagger

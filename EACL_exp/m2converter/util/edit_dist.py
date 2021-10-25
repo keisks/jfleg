@@ -112,8 +112,8 @@ def getEditDistWithPOS(seq1, seq2, pos1, pos2):
         for i in range(1, len(seq2)):
 
             # compute cost for insertion, deletion, and replace(substitution)
-            w1 = seq1[j].lower()
-            w2 = seq2[i].lower()
+            w1 = seq1[j]
+            w2 = seq2[i]
             cost1 = dist_matrix[i][j-1] + ins_cost
             cost2 = dist_matrix[i-1][j] + del_cost
             which_replace = ""
@@ -123,14 +123,14 @@ def getEditDistWithPOS(seq1, seq2, pos1, pos2):
             elif w1 == w2:
                 cost3 = dist_matrix[i-1][j-1]
                 which_replace = "R"
-            elif pattern.en.lemma(w1) == pattern.en.lemma(w2):
+            elif pattern.en.lemma(w1.lower()) == pattern.en.lemma(w2.lower()):
                 which_replace = "Ri" # Replace with inflection
                 cost3 = dist_matrix[i-1][j-1] + close_sub_cost
             elif ((len(w1) >3 and len(w2) > 3)
                     and (getEditDist(w1, w2) < edThreshold)):
                 cost3 = dist_matrix[i-1][j-1] + close_sub_cost
                 which_replace = "Rc" # Replace with close spelling
-            elif (pos1[j] == pos2[i] and are_synonyms(w1, w2, pos1[j])):
+            elif (pos1[j] == pos2[i] and are_synonyms(w1.lower(), w2.lower(), pos1[j])):
                 cost3 = dist_matrix[i-1][j-1] + close_sub_cost
                 which_replace = "Rs" # Replace with semantics
             elif pos1[j] == pos2[i]:
@@ -194,4 +194,4 @@ if __name__ == '__main__':
     #print are_synonyms("dog", "cat", "VB")
     #print are_synonyms("drink", "toast", "V")
 
-    print getEditDist(sys.argv[1], sys.argv[2])
+    print(getEditDist(sys.argv[1], sys.argv[2]))
