@@ -44,6 +44,7 @@ Last updated: December 7th, 2018
 
     e.g. python ./eval/gleu.py -r ./dev/dev.ref[0-3] -s ./dev/dev.src --hyp YOUR_SYSTEM_OUTPUT
 
+    This returns the mean, standard deviation, and confidence interval.
 
 ## Leader Board (published results)
 
