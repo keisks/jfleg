@@ -52,7 +52,9 @@ N.B. Sytems with asterisk (*) are tuned on different data.
 
 System                     | GLEU (dev) | GLEU (test)
 ---------------------------------------- | :--------: | :---------:
+[Coyne et al. (2023)](https://arxiv.org/abs/2303.14342) | 60.10* | 65.02
 [Ge et al. (2018)](https://arxiv.org/pdf/1807.01270.pdf)         |  N/A | 62.42
+[Liu et al. (2021)](https://github.com/thunlp/VERNet)         |  N/A | 61.61
 [Grundkiewicz and Junczys-Dowmunt (2018)](https://arxiv.org/pdf/1804.05945.pdf)         |  N/A | 61.50
 [Junczys-Dowmunt et al. (2018)](https://arxiv.org/pdf/1804.05940.pdf)         |  N/A | 59.90
 [Chollampatt and Ng (2018)](https://arxiv.org/pdf/1801.08831.pdf)         |  52.48 | 57.47
